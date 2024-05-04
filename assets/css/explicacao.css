@@ -1,0 +1,17 @@
+* { /*seletor universal - aplica o conjunto de regras a todas as tags*/
+    background-color: red;
+}
+span{ /*seletor de tags - aplica o conjunto de regras a todas as tags informadas*/
+    margin: 2px;
+}
+.classeTeste { /*seletor de classes - aplica o conjunto de regras somente as tags que possuirem a classe*/
+    padding: auto;
+}
+#idSenha1{ /*seletor de Id - aplica o conjunto de regras somente a tag que possui o ID*/
+    border-radius: 2px;
+}
+.elementos{
+    padding: 20px; /*a regra será aplicada em todas as direções*/
+    margin: 10px 20px; /*o 1 valor valor ao eixo y e o segundo ao x*/
+    border-radius: 10px 5px 3px 6px; /*Os valores serão aplicados em sentido horário - top, rigth, botoom, left*/
+}
