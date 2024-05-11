@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(211, 248, 236);
+}
+.pai{
+    /*font-size: 10px;*/
+    font-size: 3rem;
+    display: flex; /*habilita o flexblox*/
+    height: 100vh; /*delimita o tamanho da tela como 100% da area visivel*/
+    flex-direction: center; /*orientação da tela, ou em row ou collum*/
+    justify-content: center; /*alinhamento no eixo x*/
+    align-items: center; /*alinhamento no eixo y*/
+    flex-wrap: wrap;/*quebra de linha dos elementos*/
+}
+.filho{
+    /*font-size: 4em;*/
+    border: 3px solid rgb(33, 114, 146);
+    background-color: cornsilk;
+    color: lightcoral;
+    text-align: center;
+    width: 150px;
+    margin: 5px;
+}
+/*.filho3{
+    border: 3px solid rgb(33, 114, 146);
+    background-color: cornsilk;
+    color: lightcoral;
+    text-align: center;
+    width: 20%;
+    margin: 5px;
+}*/
+.neta{
+    font-size: 3rem;
+    background-color: aqua;
+    margin: 5%;
+    text-align: center;
+    border: 3px solid rgb(33, 114, 146);
+}
