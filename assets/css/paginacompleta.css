@@ -1,0 +1,13 @@
+:root{
+    --light-pink: #fcdbc9;
+}
+.bg-light-pink{
+    background-color: var(--light-pink); /*var(--light-pink)*/;
+}
+p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+h2{
+    font-size: 3rem;
+}
